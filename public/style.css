@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+height: 100vh;
+background-color: rgb(103, 103, 150);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.bot-btn{
+    border: none;
+    outline: none;
+    background-color: black;
+    width: 70px;
+    height: 70px;
+    border-radius: 60%;
+    cursor: pointer;
+}
+.bot-btn:hover{
+    filter: drop-shadow(0px 0px 8px  rgba(255, 255, 255, 0.382));
+}
+.bot-btn img{
+    width: 40px;
+}
+.bot-btn img:hover{
+    transition: 2s;
+    transform: scale(1.5);
+}
